@@ -5,646 +5,889 @@
 
     <meta charset="UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
     <title>Tahapan | Green Corner</title>
 
-    <link rel="icon" href="assets/logo/logo.png">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Google Fonts -->
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+
+
+    <!-- Font Awesome -->
 
     <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
-    <link rel="stylesheet" href="style.css">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+          href="style.css">
 
 </head>
 
 
-<!-- =====================================
-     MUSIC PLAYER
-===================================== -->
-
-<div class="music-player">
-
-
-<i class="fa-solid fa-music"></i>
-
-
-<button id="musicBtn">
-
-<i class="fa-solid fa-play"></i>
-
-</button>
-
-
-<audio id="bgMusic" loop>
-
-<source src="assets/music/nature.mp3">
-
-</audio>
-
-
-</div>
-
-
 <body>
 
-<header class="top-header">
 
-    <div class="container">
+    <!-- =====================================================
+         NAVBAR
+    ====================================================== -->
 
-        <div class="header-content">
+    <header class="navbar">
 
-            <img src="assets/logo/logo.png"
-                 class="logo"
-                 alt="Logo">
+        <div class="container">
 
-            <div>
 
-                <h2>GREEN CORNER</h2>
+            <!-- LOGO -->
 
-                <p>SMK Negeri 2 Purwokerto</p>
+            <a href="home.html"
+               class="nav-logo">
 
-            </div>
+                <span class="nav-logo-icon">
+                    🌿
+                </span>
 
-        </div>
-
-    </div>
-
-</header>
-
-<nav class="navbar">
-
-    <div class="container">
-
-        <ul>
-
-            <li><a href="home.html">Home</a></li>
-
-            <li><a href="tentang.html">Tentang</a></li>
-
-            <li><a href="tanaman.html">Tanaman</a></li>
-
-            <li><a href="alat.html">Alat & Bahan</a></li>
-
-            <li><a href="tahapan.html" class="active">Tahapan</a></li>
-
-            <li><a href="dokumentasi.html">Dokumentasi</a></li>
-
-            <li><a href="hasil.html">Hasil</a></li>
-
-            <li><a href="faq.html">FAQ</a></li>
-
-            <li><a href="penutup.html">Penutup</a></li>
-
-        </ul>
-
-    </div>
-
-</nav>
-
-<section class="page-banner">
-
-    <div class="container">
-
-        <h1>Tahapan Penanaman</h1>
-
-        <p>
-
-            Langkah-langkah pelaksanaan proyek Green Corner
-            mulai dari persiapan hingga perawatan tanaman.
-
-        </p>
-
-    </div>
-
-</section>
-
-<section class="timeline-section">
-
-    <div class="container">
-
-        <div class="section-title">
-
-            <h2>Timeline Proyek</h2>
-
-            <p>
-
-                Proses pelaksanaan dilakukan secara bertahap
-                agar tanaman dapat tumbuh dengan baik.
-
-            </p>
-
-        </div>
-
-        <div class="timeline">
-
-            <div class="timeline-item">
-
-                <div class="timeline-number">
-
-                    1
-
-                </div>
-
-                <div class="timeline-content">
-
-                    <i class="fa-solid fa-clipboard-list"></i>
-
-                    <h3>Perencanaan</h3>
-
-                    <p>
-
-                        Menentukan konsep Green Corner,
-                        memilih lokasi penanaman,
-                        serta menentukan jenis bunga yang akan ditanam.
-
-                    </p>
-
-                </div>
-
-            </div>
-
-            <div class="timeline-item">
-
-                <div class="timeline-number">
-
-                    2
-
-                </div>
-
-                <div class="timeline-content">
-
-                    <i class="fa-solid fa-box-open"></i>
-
-                    <h3>Persiapan Alat & Bahan</h3>
-
-                    <p>
-
-                        Menyiapkan seluruh alat,
-                        media tanam,
-                        bibit Bougainvillea,
-                        bibit Zinnia,
-                        tanah,
-                        serta pupuk.
-
-                    </p>
-
-                </div>
-
-            </div>
-
-            <div class="timeline-item">
-
-                <div class="timeline-number">
-
-                    3
-
-                </div>
-
-                <div class="timeline-content">
-
-                    <i class="fa-solid fa-mountain"></i>
-
-                    <h3>Menyiapkan Media Tanam</h3>
-
-                    <p>
-
-                        Mengolah tanah,
-                        memasukkan media tanam ke pot,
-                        kemudian mencampurnya dengan pupuk.
-
-                    </p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-            <div class="timeline-item">
-
-                <div class="timeline-number">
-
-                    4
-
-                </div>
-
-                <div class="timeline-content">
-
-                    <i class="fa-solid fa-seedling"></i>
-
-                    <h3>Penanaman Bougainvillea</h3>
-
-                    <p>
-
-                        Bibit Bougainvillea ditanam pada media tanam
-                        yang telah disiapkan, kemudian posisi tanaman
-                        dirapikan agar dapat tumbuh dengan baik.
-
-                    </p>
-
-                </div>
-
-            </div>
-
-            <div class="timeline-item">
-
-                <div class="timeline-number">
-
-                    5
-
-                </div>
-
-                <div class="timeline-content">
-
-                    <i class="fa-solid fa-flower-tulip"></i>
-
-                    <h3>Penanaman Zinnia</h3>
-
-                    <p>
-
-                        Bibit Zinnia ditanam dengan jarak yang cukup
-                        agar memperoleh ruang tumbuh dan pencahayaan
-                        yang optimal.
-
-                    </p>
-
-                </div>
-
-            </div>
-
-            <div class="timeline-item">
-
-                <div class="timeline-number">
-
-                    6
-
-                </div>
-
-                <div class="timeline-content">
-
-                    <i class="fa-solid fa-droplet"></i>
-
-                    <h3>Penyiraman</h3>
-
-                    <p>
-
-                        Setelah proses penanaman selesai,
-                        seluruh tanaman disiram secukupnya
-                        agar media tanam tetap lembap.
-
-                    </p>
-
-                </div>
-
-            </div>
-
-            <div class="timeline-item">
-
-                <div class="timeline-number">
-
-                    7
-
-                </div>
-
-                <div class="timeline-content">
-
-                    <i class="fa-solid fa-leaf"></i>
-
-                    <h3>Pemupukan</h3>
-
-                    <p>
-
-                        Pupuk diberikan secara berkala
-                        untuk membantu pertumbuhan akar,
-                        batang, daun, dan bunga.
-
-                    </p>
-
-                </div>
-
-            </div>
-
-            <div class="timeline-item">
-
-                <div class="timeline-number">
-
-                    8
-
-                </div>
-
-                <div class="timeline-content">
-
-                    <i class="fa-solid fa-camera"></i>
-
-                    <h3>Dokumentasi</h3>
-
-                    <p>
-
-                        Seluruh proses penanaman didokumentasikan
-                        dalam bentuk foto sebagai bukti kegiatan
-                        Green Corner.
-
-                    </p>
-
-                </div>
-
-            </div>
-
-            <div class="timeline-item">
-
-                <div class="timeline-number">
-
-                    9
-
-                </div>
-
-                <div class="timeline-content">
-
-                    <i class="fa-solid fa-chart-line"></i>
-
-                    <h3>Pengamatan Pertumbuhan</h3>
-
-                    <p>
-
-                        Tanaman diamati secara berkala untuk melihat
-                        perkembangan tinggi tanaman, jumlah daun,
-                        dan kondisi bunga.
-
-                    </p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ===================================== -->
-<!-- TIPS PERAWATAN -->
-<!-- ===================================== -->
-
-<section class="care-tips">
-
-    <div class="container">
-
-        <div class="section-title">
-
-            <h2>Tips Perawatan</h2>
-
-        </div>
-
-        <div class="tips-grid">
-
-            <div class="tip-card">
-
-                <i class="fa-solid fa-sun"></i>
-
-                <h3>Sinar Matahari</h3>
-
-                <p>
-
-                    Letakkan tanaman pada tempat yang
-                    memperoleh sinar matahari yang cukup.
-
-                </p>
-
-            </div>
-
-            <div class="tip-card">
-
-                <i class="fa-solid fa-droplet"></i>
-
-                <h3>Penyiraman</h3>
-
-                <p>
-
-                    Siram tanaman setiap pagi atau sore
-                    agar media tanam tetap lembap.
-
-                </p>
-
-            </div>
-
-            <div class="tip-card">
-
-                <i class="fa-solid fa-scissors"></i>
-
-                <h3>Pemangkasan</h3>
-
-                <p>
-
-                    Pangkas daun atau bunga yang sudah
-                    layu agar tanaman tetap sehat.
-
-                </p>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ===================================== -->
-<!-- RINGKASAN PROYEK -->
-<!-- ===================================== -->
-
-<section class="project-summary">
-
-    <div class="container">
-
-        <div class="section-title">
-
-            <h2>Ringkasan Tahapan</h2>
-
-            <p>
-
-                Seluruh tahapan dilaksanakan secara berurutan
-                agar tanaman dapat tumbuh dengan optimal dan
-                proyek Green Corner berjalan dengan baik.
-
-            </p>
-
-        </div>
-
-        <div class="summary-grid">
-
-            <div class="summary-card">
-
-                <i class="fa-solid fa-list-check"></i>
-
-                <h3>9 Tahapan</h3>
-
-                <p>
-
-                    Mulai dari perencanaan hingga
-                    pengamatan pertumbuhan tanaman.
-
-                </p>
-
-            </div>
-
-            <div class="summary-card">
-
-                <i class="fa-solid fa-users"></i>
-
-                <h3>Kerja Sama</h3>
-
-                <p>
-
-                    Semua anggota kelompok ikut
-                    berpartisipasi dalam setiap proses.
-
-                </p>
-
-            </div>
-
-            <div class="summary-card">
-
-                <i class="fa-solid fa-seedling"></i>
-
-                <h3>Hasil</h3>
-
-                <p>
-
-                    Green Corner menjadi lebih hijau,
-                    indah, dan nyaman untuk dinikmati.
-
-                </p>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ===================================== -->
-<!-- QUOTE -->
-<!-- ===================================== -->
-
-<section class="quote-section">
-
-    <div class="container">
-
-        <div class="quote-card">
-
-            <i class="fa-solid fa-quote-left"></i>
-
-            <blockquote>
-
-                "Every flower begins with a single step."
-
-            </blockquote>
-
-            <p>
-
-                Keberhasilan sebuah taman tidak terjadi dalam
-                semalam. Semua dimulai dari langkah kecil,
-                kerja sama, dan perawatan yang dilakukan
-                dengan penuh tanggung jawab.
-
-            </p>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ===================================== -->
-<!-- PAGE NAVIGATION -->
-<!-- ===================================== -->
-
-<section class="page-navigation">
-
-    <div class="container">
-
-        <div class="navigation-button">
-
-            <a href="alat.html" class="back-btn">
-
-                <i class="fa-solid fa-arrow-left"></i>
-
-                Alat & Bahan
+                <span>
+                    GREEN CORNER
+                </span>
 
             </a>
 
-            <a href="dokumentasi.html" class="next-btn">
 
-                Dokumentasi
+            <!-- MOBILE MENU -->
 
-                <i class="fa-solid fa-arrow-right"></i>
+            <button class="menu-toggle"
+                    aria-label="Buka menu"
+                    aria-expanded="false">
 
-            </a>
+                <i class="fa-solid fa-bars"></i>
+
+            </button>
+
+
+            <!-- NAVIGATION -->
+
+            <nav>
+
+                <ul>
+
+                    <li>
+                        <a href="home.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="tentang.html">
+                            Tentang
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="tanaman.html">
+                            Tanaman
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="alat.html">
+                            Alat & Bahan
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="tahapan.html"
+                           class="active">
+                            Tahapan
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="dokumentasi.html">
+                            Dokumentasi
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="hasil.html">
+                            Hasil
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="faq.html">
+                            FAQ
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="penutup.html">
+                            Penutup
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
 
         </div>
 
-    </div>
-
-</section>
+    </header>
 
 
-<!-- ===================================== -->
-<!-- FOOTER -->
-<!-- ===================================== -->
 
-<footer>
+    <!-- =====================================================
+         PAGE HEADER
+    ====================================================== -->
 
-    <div class="container">
+    <main>
 
-        <img src="assets/logo/logo.png"
-             class="footer-logo"
-             alt="Logo SMKN 2 Purwokerto">
+        <section class="page-header">
 
-        <h3>Green Corner</h3>
+            <div class="container">
 
-        <p>
+                <div class="page-header-content">
 
-            Website Proyek Kolaborasi
-            Penanaman Bougainvillea & Zinnia
+                    <span>
+                        PROJECT PROCESS
+                    </span>
 
-        </p>
+                    <h1>
+                        Tahapan Penanaman
+                    </h1>
 
-        <p>
+                    <p>
 
-            SMK Negeri 2 Purwokerto
+                        Langkah-langkah yang dilakukan dalam
+                        proses penanaman dan perawatan tanaman.
 
-        </p>
+                    </p>
 
-        <p>
+                </div>
 
-            © 2026 Green Corner.
-            All Rights Reserved.
+            </div>
 
-        </p>
+        </section>
 
-    </div>
 
-</footer>
 
-<script src="js/script.js"></script>
+        <!-- =====================================================
+             INTRODUCTION
+        ====================================================== -->
+
+        <section class="steps-intro">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <span>
+                        OUR PROCESS
+                    </span>
+
+                    <h2>
+                        Dari Persiapan hingga Perawatan
+                    </h2>
+
+                    <p>
+
+                        Setiap tahap dilakukan secara berurutan
+                        agar proses penanaman dapat berjalan
+                        dengan baik.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             STEP TIMELINE
+        ====================================================== -->
+
+        <section class="steps-section">
+
+            <div class="container">
+
+
+                <div class="steps-timeline">
+
+
+                    <!-- STEP 01 -->
+
+                    <article class="step-item">
+
+
+                        <div class="step-number">
+                            01
+                        </div>
+
+
+                        <div class="step-icon">
+
+                            <i class="fa-solid fa-box-open"></i>
+
+                        </div>
+
+
+                        <div class="step-content">
+
+                            <span>
+                                TAHAP 01
+                            </span>
+
+                            <h2>
+                                Menyiapkan Media Tanam
+                            </h2>
+
+                            <p>
+
+                                Menyiapkan tanah dan bahan yang
+                                diperlukan sebagai media tanam.
+                                Media tanam dipastikan dalam
+                                kondisi yang sesuai sebelum
+                                digunakan.
+
+                            </p>
+
+
+                            <ul>
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Menyiapkan tanah
+                                </li>
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Menyiapkan pupuk
+                                </li>
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Mempersiapkan wadah tanam
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- STEP 02 -->
+
+                    <article class="step-item">
+
+
+                        <div class="step-number">
+                            02
+                        </div>
+
+
+                        <div class="step-icon">
+
+                            <i class="fa-solid fa-seedling"></i>
+
+                        </div>
+
+
+                        <div class="step-content">
+
+                            <span>
+                                TAHAP 02
+                            </span>
+
+                            <h2>
+                                Pengisian Media Tanam
+                            </h2>
+
+                            <p>
+
+                                Media tanam dimasukkan ke dalam
+                                wadah yang telah disiapkan.
+                                Tanah diatur agar memiliki
+                                kedalaman yang cukup untuk
+                                tanaman.
+
+                            </p>
+
+
+                            <ul>
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Memasukkan tanah
+                                </li>
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Meratakan media tanam
+                                </li>
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Memastikan wadah siap digunakan
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- STEP 03 -->
+
+                    <article class="step-item">
+
+
+                        <div class="step-number">
+                            03
+                        </div>
+
+
+                        <div class="step-icon">
+
+                            <i class="fa-solid fa-hand-holding-seedling"></i>
+
+                        </div>
+
+
+                        <div class="step-content">
+
+                            <span>
+                                TAHAP 03
+                            </span>
+
+                            <h2>
+                                Penanaman Bibit
+                            </h2>
+
+                            <p>
+
+                                Bibit tanaman ditanam pada media
+                                yang telah disiapkan. Proses
+                                dilakukan dengan hati-hati agar
+                                bibit dapat tumbuh dengan baik.
+
+                            </p>
+
+
+                            <ul>
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Membuat lubang tanam
+                                </li>
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Menempatkan bibit
+                                </li>
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Menutup kembali bagian akar
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- STEP 04 -->
+
+                    <article class="step-item">
+
+
+                        <div class="step-number">
+                            04
+                        </div>
+
+
+                        <div class="step-icon">
+
+                            <i class="fa-solid fa-droplet"></i>
+
+                        </div>
+
+
+                        <div class="step-content">
+
+                            <span>
+                                TAHAP 04
+                            </span>
+
+                            <h2>
+                                Penyiraman Tanaman
+                            </h2>
+
+                            <p>
+
+                                Tanaman disiram menggunakan air
+                                secukupnya untuk membantu menjaga
+                                kelembapan media tanam.
+
+                            </p>
+
+
+                            <ul>
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Menyiapkan air
+                                </li>
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Menyiram tanaman
+                                </li>
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Memperhatikan kelembapan tanah
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- STEP 05 -->
+
+                    <article class="step-item">
+
+
+                        <div class="step-number">
+                            05
+                        </div>
+
+
+                        <div class="step-icon">
+
+                            <i class="fa-solid fa-leaf"></i>
+
+                        </div>
+
+
+                        <div class="step-content">
+
+                            <span>
+                                TAHAP 05
+                            </span>
+
+                            <h2>
+                                Pemberian Pupuk
+                            </h2>
+
+                            <p>
+
+                                Pupuk diberikan sesuai kebutuhan
+                                tanaman untuk membantu menyediakan
+                                nutrisi yang diperlukan dalam
+                                pertumbuhan.
+
+                            </p>
+
+
+                            <ul>
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Menyiapkan pupuk
+                                </li>
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Memberikan pupuk
+                                </li>
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Memperhatikan kondisi tanaman
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- STEP 06 -->
+
+                    <article class="step-item">
+
+
+                        <div class="step-number">
+                            06
+                        </div>
+
+
+                        <div class="step-icon">
+
+                            <i class="fa-solid fa-magnifying-glass-chart"></i>
+
+                        </div>
+
+
+                        <div class="step-content">
+
+                            <span>
+                                TAHAP 06
+                            </span>
+
+                            <h2>
+                                Pengamatan dan Perawatan
+                            </h2>
+
+                            <p>
+
+                                Tanaman diamati secara berkala
+                                untuk mengetahui perkembangan dan
+                                kondisi tanaman. Perawatan dilakukan
+                                sesuai kebutuhan.
+
+                            </p>
+
+
+                            <ul>
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Mengamati pertumbuhan
+                                </li>
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Menyiram secara berkala
+                                </li>
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Membersihkan bagian yang kering
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             IMPORTANT NOTES
+        ====================================================== -->
+
+        <section class="process-notes">
+
+            <div class="container">
+
+
+                <div class="section-title">
+
+                    <span>
+                        IMPORTANT
+                    </span>
+
+                    <h2>
+                        Hal yang Perlu Diperhatikan
+                    </h2>
+
+                    <p>
+
+                        Perawatan tanaman tidak berhenti
+                        setelah proses penanaman selesai.
+
+                    </p>
+
+                </div>
+
+
+                <div class="notes-grid">
+
+
+                    <article class="note-card">
+
+                        <div class="note-icon">
+
+                            <i class="fa-solid fa-calendar-check"></i>
+
+                        </div>
+
+                        <h3>
+                            Rutin
+                        </h3>
+
+                        <p>
+
+                            Lakukan pengamatan dan perawatan
+                            secara rutin.
+
+                        </p>
+
+                    </article>
+
+
+                    <article class="note-card">
+
+                        <div class="note-icon">
+
+                            <i class="fa-solid fa-eye"></i>
+
+                        </div>
+
+                        <h3>
+                            Amati
+                        </h3>
+
+                        <p>
+
+                            Perhatikan perubahan dan perkembangan
+                            tanaman dari waktu ke waktu.
+
+                        </p>
+
+                    </article>
+
+
+                    <article class="note-card">
+
+                        <div class="note-icon">
+
+                            <i class="fa-solid fa-heart"></i>
+
+                        </div>
+
+                        <h3>
+                            Rawat
+                        </h3>
+
+                        <p>
+
+                            Berikan perawatan sesuai dengan
+                            kebutuhan tanaman.
+
+                        </p>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             PROCESS SUMMARY
+        ====================================================== -->
+
+        <section class="process-summary">
+
+            <div class="container">
+
+
+                <div class="summary-box">
+
+
+                    <div class="summary-icon">
+
+                        <i class="fa-solid fa-route"></i>
+
+                    </div>
+
+
+                    <div class="summary-content">
+
+                        <span>
+                            RANGKUMAN
+                        </span>
+
+                        <h2>
+                            Persiapan → Penanaman → Perawatan
+                        </h2>
+
+                        <p>
+
+                            Seluruh tahapan saling berkaitan.
+                            Dengan persiapan yang baik dan
+                            perawatan yang rutin, tanaman dapat
+                            tumbuh dan berkembang dengan baik.
+
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             NAVIGATION
+        ====================================================== -->
+
+        <section class="page-navigation">
+
+            <div class="container">
+
+
+                <a href="alat.html"
+                   class="page-nav-button">
+
+                    <i class="fa-solid fa-arrow-left"></i>
+
+                    <span>
+                        Kembali ke Alat & Bahan
+                    </span>
+
+                </a>
+
+
+                <a href="dokumentasi.html"
+                   class="page-nav-button next">
+
+                    <span>
+                        Lanjut ke Dokumentasi
+                    </span>
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+
+            <div class="footer-main">
+
+
+                <div class="footer-brand">
+
+                    <a href="home.html"
+                       class="nav-logo">
+
+                        <span class="nav-logo-icon">
+                            🌿
+                        </span>
+
+                        <span>
+                            GREEN CORNER
+                        </span>
+
+                    </a>
+
+                    <p>
+
+                        Growing Together,
+                        Creating a Greener Future.
+
+                    </p>
+
+                </div>
+
+
+                <div class="footer-info">
+
+                    <h3>
+                        Green Corner
+                    </h3>
+
+                    <p>
+                        SMK Negeri 2 Purwokerto
+                    </p>
+
+                    <p>
+                        Tahun Ajaran 2026–2027
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="footer-bottom">
+
+                <p>
+                    © 2026 Green Corner. All Rights Reserved.
+                </p>
+
+                <p>
+                    Kelompok 2
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
+
+    <script src="js/script.js"></script>
 
 </body>
+
 </html>
