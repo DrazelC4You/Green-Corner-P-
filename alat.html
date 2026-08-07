@@ -5,757 +5,800 @@
 
     <meta charset="UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
     <title>Alat & Bahan | Green Corner</title>
 
-    <link rel="icon" href="assets/logo/logo.png">
 
-    <!-- Google Font -->
+    <!-- Google Fonts -->
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com"
+          crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+
 
     <!-- Font Awesome -->
 
     <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
-    <link rel="stylesheet" href="style.css">
-    
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+          href="style.css">
+
 </head>
-
-
-<!-- =====================================
-     MUSIC PLAYER
-===================================== -->
-
-<div class="music-player">
-
-
-<i class="fa-solid fa-music"></i>
-
-
-<button id="musicBtn">
-
-<i class="fa-solid fa-play"></i>
-
-</button>
-
-
-<audio id="bgMusic" loop>
-
-<source src="assets/music/nature.mp3">
-
-</audio>
-
-
-</div>
-
-
 
 
 <body>
 
-<!-- ===================================== -->
-<!-- HEADER -->
-<!-- ===================================== -->
 
-<header class="top-header">
+    <!-- =====================================================
+         NAVBAR
+    ====================================================== -->
 
-    <div class="container">
+    <header class="navbar">
 
-        <div class="header-content">
+        <div class="container">
 
-            <img src="assets/logo/logo.png"
-                 class="logo"
-                 alt="Logo">
 
-            <div>
+            <!-- LOGO -->
 
-                <h2>GREEN CORNER</h2>
+            <a href="home.html"
+               class="nav-logo">
 
-                <p>SMK Negeri 2 Purwokerto</p>
+                <span class="nav-logo-icon">
+                    🌿
+                </span>
 
-            </div>
-
-        </div>
-
-    </div>
-
-</header>
-
-<!-- ===================================== -->
-<!-- NAVBAR -->
-<!-- ===================================== -->
-
-<nav class="navbar">
-
-    <div class="container">
-
-        <ul>
-
-            <li><a href="home.html">Home</a></li>
-
-            <li><a href="tentang.html">Tentang</a></li>
-
-            <li><a href="tanaman.html">Tanaman</a></li>
-
-            <li><a href="alat.html" class="active">Alat & Bahan</a></li>
-
-            <li><a href="tahapan.html">Tahapan</a></li>
-
-            <li><a href="dokumentasi.html">Dokumentasi</a></li>
-
-            <li><a href="hasil.html">Hasil</a></li>
-
-            <li><a href="faq.html">FAQ</a></li>
-
-            <li><a href="penutup.html">Penutup</a></li>
-
-        </ul>
-
-    </div>
-
-</nav>
-
-<!-- ===================================== -->
-<!-- PAGE BANNER -->
-<!-- ===================================== -->
-
-<section class="page-banner">
-
-    <div class="container">
-
-        <h1>Alat & Bahan</h1>
-
-        <p>
-
-            Peralatan dan bahan yang digunakan
-            dalam proyek Green Corner.
-
-        </p>
-
-    </div>
-
-</section>
-
-<!-- ===================================== -->
-<!-- ALAT -->
-<!-- ===================================== -->
-
-<section class="tools">
-
-    <div class="container">
-
-        <div class="section-title">
-
-            <h2>Alat yang Digunakan</h2>
-
-            <p>
-
-                Berikut adalah alat-alat yang digunakan selama proses penanaman.
-
-            </p>
-
-        </div>
-
-        <div class="tools-grid">
-
-            <div class="tool-card">
-
-                <i class="fa-solid fa-trowel"></i>
-
-                <h3>Sekop Kecil</h3>
-
-                <p>
-
-                    Digunakan untuk menggali dan
-                    memindahkan media tanam.
-
-                </p>
-
-            </div>
-
-            <div class="tool-card">
-
-                <i class="fa-solid fa-scissors"></i>
-
-                <h3>Gunting</h3>
-
-                <p>
-
-                    Untuk memangkas daun atau
-                    ranting yang sudah kering.
-
-                </p>
-
-            </div>
-
-            <div class="tool-card">
-
-                <i class="fa-solid fa-bucket"></i>
-
-                <h3>Ember</h3>
-
-                <p>
-
-                    Digunakan untuk membawa air
-                    atau mencampur media tanam.
-
-                </p>
-
-            </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ===================================== -->
-<!-- BAHAN -->
-<!-- ===================================== -->
-
-<section class="materials">
-
-    <div class="container">
-
-        <div class="section-title">
-
-            <h2>Bahan yang Digunakan</h2>
-
-            <p>
-
-                Seluruh bahan utama yang diperlukan
-                dalam proyek Green Corner.
-
-            </p>
-
-        </div>
-
-        <div class="materials-grid">
-
-            <div class="material-card">
-
-                <i class="fa-solid fa-spa"></i>
-
-                <h3>Bibit Bougainvillea</h3>
-
-                <p>
-
-                    Tanaman utama yang ditanam
-                    pada Green Corner.
-
-                </p>
-
-            </div>
-
-            <div class="material-card">
-
-                <i class="fa-solid fa-flower-tulip"></i>
-
-                <h3>Bibit Zinnia</h3>
-
-                <p>
-
-                    Menambah keindahan dengan
-                    warna bunga yang beragam.
-
-                </p>
-
-            </div>
-
-            <div class="material-card">
-
-                <i class="fa-solid fa-mountain"></i>
-
-                <h3>Tanah</h3>
-
-                <p>
-
-                    Sebagai media utama
-                    pertumbuhan tanaman.
-
-                </p>
-
-            </div>
-
-            <div class="material-card">
-
-                <i class="fa-solid fa-seedling"></i>
-
-                <h3>Pupuk</h3>
-
-                <p>
-
-                    Memberikan nutrisi agar
-                    tanaman tumbuh subur.
-
-                </p>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section><!-- ===================================== -->
-<!-- TABEL FUNGSI ALAT & BAHAN -->
-<!-- ===================================== -->
-
-<section class="equipment-table">
-
-    <div class="container">
-
-        <div class="section-title">
-
-            <h2>Fungsi Alat & Bahan</h2>
-
-            <p>
-                Ringkasan fungsi setiap alat dan bahan yang digunakan.
-            </p>
-
-        </div>
-
-        <div class="table-responsive">
-
-            <table>
-
-                <thead>
-
-                    <tr>
-
-                        <th>Nama</th>
-
-                        <th>Jenis</th>
-
-                        <th>Fungsi</th>
-
-                    </tr>
-
-                </thead>
-
-                <tbody>
-
-                    <tr>
-
-                        <td>Sekop</td>
-
-                        <td>Alat</td>
-
-                        <td>Menggali dan memindahkan tanah.</td>
-
-                    </tr>
-
-                    <tr>
-
-                        <td>Gunting</td>
-
-                        <td>Alat</td>
-
-                        <td>Memangkas daun atau ranting.</td>
-
-                    </tr>
-
-                    <tr>
-
-                        <td>Ember</td>
-
-                        <td>Alat</td>
-
-                        <td>Membawa air dan media tanam.</td>
-
-                    </tr>
-
-                    <tr>
-
-                    </tr>
-
-                    <tr>
-
-                        <td>Bibit Bougainvillea</td>
-
-                        <td>Bahan</td>
-
-                        <td>Tanaman utama Green Corner.</td>
-
-                    </tr>
-
-                    <tr>
-
-                        <td>Bibit Zinnia</td>
-
-                        <td>Bahan</td>
-
-                        <td>Menambah variasi bunga.</td>
-
-                    </tr>
-
-                    <tr>
-
-                        <td>Tanah</td>
-
-                        <td>Bahan</td>
-
-                        <td>Media tumbuh tanaman.</td>
-
-                    </tr>
-
-                    <tr>
-
-                        <td>Pupuk</td>
-
-                        <td>Bahan</td>
-
-                        <td>Memberikan nutrisi tanaman.</td>
-
-                    </tr>
-
-                </tbody>
-
-            </table>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ===================================== -->
-<!-- LANGKAH PENGGUNAAN -->
-<!-- ===================================== -->
-
-<section class="steps-tools">
-
-    <div class="container">
-
-        <div class="section-title">
-
-            <h2>Penggunaan Alat</h2>
-
-        </div>
-
-        <div class="steps-grid">
-
-            <div class="step-card">
-
-                <span>1</span>
-
-                <h3>Siapkan Alat</h3>
-
-                <p>
-
-                    Pastikan semua alat berada dalam
-                    kondisi bersih dan siap digunakan.
-
-                </p>
-
-            </div>
-
-            <div class="step-card">
-
-                <span>2</span>
-
-                <h3>Gunakan dengan Benar</h3>
-
-                <p>
-
-                    Gunakan alat sesuai fungsinya
-                    agar pekerjaan lebih mudah.
-
-                </p>
-
-            </div>
-
-            <div class="step-card">
-
-                <span>3</span>
-
-                <h3>Bersihkan Kembali</h3>
-
-                <p>
-
-                    Setelah selesai, bersihkan alat
-                    agar tetap awet.
-
-                </p>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ===================================== -->
-<!-- TIPS KESELAMATAN -->
-<!-- ===================================== -->
-
-<section class="safety">
-
-    <div class="container">
-
-        <div class="section-title">
-
-            <h2>Tips Keselamatan</h2>
-
-        </div>
-
-        <div class="safety-grid">
-
-            <div class="safety-card">
-
-                <i class="fa-solid fa-shield-heart"></i>
-
-                <h3>Gunakan Alat dengan Hati-hati</h3>
-
-                <p>
-
-                    Hindari bermain saat menggunakan
-                    alat berkebun.
-
-                </p>
-
-            </div>
-
-            <div class="safety-card">
-
-                <i class="fa-solid fa-hand-sparkles"></i>
-
-                <h3>Cuci Tangan</h3>
-
-                <p>
-
-                    Bersihkan tangan setelah
-                    selesai berkebun.
-
-                </p>
-
-            </div>
-
-            <div class="safety-card">
-
-                <i class="fa-solid fa-box-open"></i>
-
-                <h3>Simpan Alat</h3>
-
-                <p>
-
-                    Simpan alat di tempat yang aman
-                    setelah digunakan.
-
-                </p>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ===================================== -->
-<!-- FAKTA MEDIA TANAM -->
-<!-- ===================================== -->
-
-<section class="soil-facts">
-
-    <div class="container">
-
-        <div class="fact-box">
-
-            <i class="fa-solid fa-lightbulb"></i>
-
-            <div>
-
-                <h3>Tahukah Kamu?</h3>
-
-                <p>
-
-                    Media tanam yang gembur dan memiliki
-                    drainase yang baik membantu akar tanaman
-                    memperoleh air dan oksigen secara optimal.
-
-                </p>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ===================================== -->
-<!-- RINGKASAN KEBUTUHAN -->
-<!-- ===================================== -->
-
-<section class="project-summary">
-
-    <div class="container">
-
-        <div class="section-title">
-
-            <h2>Ringkasan Kebutuhan Proyek</h2>
-
-            <p>
-                Seluruh alat dan bahan dipilih agar proses penanaman
-                dapat berjalan dengan efektif dan efisien.
-            </p>
-
-        </div>
-
-        <div class="summary-grid">
-
-            <div class="summary-card">
-
-                <i class="fa-solid fa-screwdriver-wrench"></i>
-
-                <h3>4 Alat Utama</h3>
-
-                <p>
-                    Sekop, gunting, ember, dan gembor digunakan
-                    selama proses penanaman serta perawatan.
-                </p>
-
-            </div>
-
-            <div class="summary-card">
-
-                <i class="fa-solid fa-seedling"></i>
-
-                <h3>4 Bahan Utama</h3>
-
-                <p>
-                    Bibit Bougainvillea, bibit Zinnia,
-                    tanah, dan pupuk menjadi komponen utama
-                    dalam Green Corner.
-                </p>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ===================================== -->
-<!-- QUOTE -->
-<!-- ===================================== -->
-
-<section class="quote-section">
-
-    <div class="container">
-
-        <div class="quote-card">
-
-            <i class="fa-solid fa-leaf"></i>
-
-            <blockquote>
-
-                "Great gardens begin with simple tools
-                and caring hands."
-
-            </blockquote>
-
-            <p>
-
-                Setiap alat memiliki peran penting.
-                Dengan menggunakannya secara tepat,
-                kita dapat merawat tanaman dengan lebih baik
-                dan menjaga Green Corner tetap indah.
-
-            </p>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ===================================== -->
-<!-- PAGE NAVIGATION -->
-<!-- ===================================== -->
-
-<section class="page-navigation">
-
-    <div class="container">
-
-        <div class="navigation-button">
-
-            <a href="tanaman.html" class="back-btn">
-
-                <i class="fa-solid fa-arrow-left"></i>
-
-                Tanaman
+                <span>
+                    GREEN CORNER
+                </span>
 
             </a>
 
-            <a href="tahapan.html" class="next-btn">
 
-                Tahapan
+            <!-- MOBILE MENU -->
 
-                <i class="fa-solid fa-arrow-right"></i>
+            <button class="menu-toggle"
+                    aria-label="Buka menu"
+                    aria-expanded="false">
 
-            </a>
+                <i class="fa-solid fa-bars"></i>
+
+            </button>
+
+
+            <!-- NAVIGATION -->
+
+            <nav>
+
+                <ul>
+
+                    <li>
+                        <a href="home.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="tentang.html">
+                            Tentang
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="tanaman.html">
+                            Tanaman
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="alat.html"
+                           class="active">
+                            Alat & Bahan
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="tahapan.html">
+                            Tahapan
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="dokumentasi.html">
+                            Dokumentasi
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="hasil.html">
+                            Hasil
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="faq.html">
+                            FAQ
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="penutup.html">
+                            Penutup
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
 
         </div>
 
-    </div>
-
-</section>
+    </header>
 
 
-<!-- ===================================== -->
-<!-- FOOTER -->
-<!-- ===================================== -->
 
-<footer>
+    <!-- =====================================================
+         PAGE HEADER
+    ====================================================== -->
 
-    <div class="container">
+    <main>
 
-        <img src="assets/logo/logo.png"
-             class="footer-logo"
-             alt="Logo SMKN 2 Purwokerto">
+        <section class="page-header">
 
-        <h3>Green Corner</h3>
+            <div class="container">
 
-        <p>
+                <div class="page-header-content">
 
-            Website Proyek Kolaborasi
-            Penanaman Bougainvillea & Zinnia
+                    <span>
+                        TOOLS & MATERIALS
+                    </span>
 
-        </p>
+                    <h1>
+                        Alat & Bahan
+                    </h1>
 
-        <p>
+                    <p>
 
-            SMK Negeri 2 Purwokerto
+                        Peralatan dan bahan yang digunakan
+                        dalam proses penanaman Green Corner.
 
-        </p>
+                    </p>
 
-        <p>
+                </div>
 
-            © 2026 Green Corner.
-            All Rights Reserved.
+            </div>
 
-        </p>
+        </section>
 
-    </div>
 
-</footer>
 
-<script src="js/script.js"></script>
+        <!-- =====================================================
+             INTRODUCTION
+        ====================================================== -->
+
+        <section class="tools-intro">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <span>
+                        PREPARATION
+                    </span>
+
+                    <h2>
+                        Persiapan Sebelum Menanam
+                    </h2>
+
+                    <p>
+
+                        Sebelum proses penanaman dimulai,
+                        seluruh alat dan bahan perlu disiapkan
+                        agar setiap tahapan dapat berjalan
+                        dengan baik.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             TOOLS
+        ====================================================== -->
+
+        <section class="tools-section">
+
+            <div class="container">
+
+
+                <div class="section-title">
+
+                    <span>
+                        TOOLS
+                    </span>
+
+                    <h2>
+                        Alat yang Digunakan
+                    </h2>
+
+                    <p>
+
+                        Beberapa alat yang digunakan untuk
+                        membantu proses penanaman dan perawatan.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="tools-grid">
+
+
+                    <!-- SEKOP -->
+
+                    <article class="tool-card">
+
+                        <div class="tool-icon">
+
+                            <i class="fa-solid fa-trowel"></i>
+
+                        </div>
+
+                        <span>
+                            ALAT 01
+                        </span>
+
+                        <h3>
+                            Sekop Kecil
+                        </h3>
+
+                        <p>
+
+                            Digunakan untuk menggali,
+                            mengambil, dan memindahkan
+                            media tanam.
+
+                        </p>
+
+                    </article>
+
+
+
+                    <!-- GUNTING -->
+
+                    <article class="tool-card">
+
+                        <div class="tool-icon">
+
+                            <i class="fa-solid fa-scissors"></i>
+
+                        </div>
+
+                        <span>
+                            ALAT 02
+                        </span>
+
+                        <h3>
+                            Gunting
+                        </h3>
+
+                        <p>
+
+                            Digunakan untuk memangkas
+                            bagian tanaman yang kering
+                            atau tidak diperlukan.
+
+                        </p>
+
+                    </article>
+
+
+
+                    <!-- EMBER -->
+
+                    <article class="tool-card">
+
+                        <div class="tool-icon">
+
+                            <i class="fa-solid fa-bucket"></i>
+
+                        </div>
+
+                        <span>
+                            ALAT 03
+                        </span>
+
+                        <h3>
+                            Ember
+                        </h3>
+
+                        <p>
+
+                            Digunakan untuk membawa air
+                            dan membantu proses persiapan
+                            media tanam.
+
+                        </p>
+
+                    </article>
+
+
+
+                    <!-- PENYIRAM -->
+
+                    <article class="tool-card">
+
+                        <div class="tool-icon">
+
+                            <i class="fa-solid fa-shower"></i>
+
+                        </div>
+
+                        <span>
+                            ALAT 04
+                        </span>
+
+                        <h3>
+                            Alat Penyiram
+                        </h3>
+
+                        <p>
+
+                            Digunakan untuk menyiram tanaman
+                            secara merata.
+
+                        </p>
+
+                    </article>
+
+
+
+                    <!-- PENGADUK -->
+
+                    <article class="tool-card">
+
+                        <div class="tool-icon">
+
+                            <i class="fa-solid fa-wand-magic-sparkles"></i>
+
+                        </div>
+
+                        <span>
+                            ALAT 05
+                        </span>
+
+                        <h3>
+                            Alat Pengaduk
+                        </h3>
+
+                        <p>
+
+                            Membantu mencampurkan media tanam
+                            agar lebih merata.
+
+                        </p>
+
+                    </article>
+
+
+
+                    <!-- SARUNG TANGAN -->
+
+                    <article class="tool-card">
+
+                        <div class="tool-icon">
+
+                            <i class="fa-solid fa-hand"></i>
+                            
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             MATERIALS
+        ====================================================== -->
+
+        <section class="materials-section">
+
+            <div class="container">
+
+
+                <div class="section-title">
+
+                    <span>
+                        MATERIALS
+                    </span>
+
+                    <h2>
+                        Bahan yang Digunakan
+                    </h2>
+
+                    <p>
+
+                        Bahan utama yang diperlukan untuk
+                        menyiapkan media dan tanaman.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="materials-grid">
+
+
+
+                    <!-- TANAH -->
+
+                    <article class="material-card">
+
+                        <div class="material-icon">
+
+                            <i class="fa-solid fa-mountain"></i>
+
+                        </div>
+
+                        <div class="material-content">
+
+                            <span>
+                                BAHAN 01
+                            </span>
+
+                            <h3>
+                                Tanah
+                            </h3>
+
+                            <p>
+
+                                Digunakan sebagai media utama
+                                untuk pertumbuhan tanaman.
+
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PUPUK -->
+
+                    <article class="material-card">
+
+                        <div class="material-icon">
+
+                            <i class="fa-solid fa-leaf"></i>
+
+                        </div>
+
+                        <div class="material-content">
+
+                            <span>
+                                BAHAN 02
+                            </span>
+
+                            <h3>
+                                Pupuk
+                            </h3>
+
+                            <p>
+
+                                Digunakan untuk membantu
+                                memenuhi kebutuhan nutrisi
+                                tanaman.
+
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- BIBIT -->
+
+                    <article class="material-card">
+
+                        <div class="material-icon">
+
+                            <i class="fa-solid fa-seedling"></i>
+
+                        </div>
+
+                        <div class="material-content">
+
+                            <span>
+                                BAHAN 03
+                            </span>
+
+                            <h3>
+                                Bibit Tanaman
+                            </h3>
+
+                            <p>
+
+                                Bibit Bougainvillea dan Zinnia
+                                yang akan ditanam dan dirawat.
+
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- AIR -->
+
+                    <article class="material-card">
+
+                        <div class="material-icon">
+
+                            <i class="fa-solid fa-droplet"></i>
+
+                        </div>
+
+                        <div class="material-content">
+
+                            <span>
+                                BAHAN 04
+                            </span>
+
+                            <h3>
+                                Air
+                            </h3>
+
+                            <p>
+
+                                Digunakan untuk memenuhi
+                                kebutuhan air tanaman.
+
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             PREPARATION CHECKLIST
+        ====================================================== -->
+
+        <section class="preparation-section">
+
+            <div class="container">
+
+
+                <div class="preparation-box">
+
+
+                    <div class="preparation-content">
+
+                        <span>
+                            CHECKLIST
+                        </span>
+
+                        <h2>
+                            Semua Sudah Siap?
+                        </h2>
+
+                        <p>
+
+                            Pastikan alat dan bahan sudah tersedia
+                            sebelum memulai proses penanaman.
+
+                        </p>
+
+
+                        <ul class="checklist">
+
+                            <li>
+
+                                <i class="fa-solid fa-circle-check"></i>
+
+                                Media tanam sudah disiapkan
+
+                            </li>
+
+                            <li>
+
+                                <i class="fa-solid fa-circle-check"></i>
+
+                                Bibit tanaman tersedia
+
+                            </li>
+
+                            <li>
+
+                                <i class="fa-solid fa-circle-check"></i>
+
+                                Alat penanaman sudah tersedia
+
+                            </li>
+
+                            <li>
+
+                                <i class="fa-solid fa-circle-check"></i>
+
+                                Air dan pupuk sudah disiapkan
+
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+
+                    <div class="preparation-icon">
+
+                        <i class="fa-solid fa-seedling"></i>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             NAVIGATION
+        ====================================================== -->
+
+        <section class="page-navigation">
+
+            <div class="container">
+
+
+                <a href="tanaman.html"
+                   class="page-nav-button">
+
+                    <i class="fa-solid fa-arrow-left"></i>
+
+                    <span>
+                        Kembali ke Tanaman
+                    </span>
+
+                </a>
+
+
+                <a href="tahapan.html"
+                   class="page-nav-button next">
+
+                    <span>
+                        Lanjut ke Tahapan
+                    </span>
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+
+            <div class="footer-main">
+
+
+                <div class="footer-brand">
+
+                    <a href="home.html"
+                       class="nav-logo">
+
+                        <span class="nav-logo-icon">
+                            🌿
+                        </span>
+
+                        <span>
+                            GREEN CORNER
+                        </span>
+
+                    </a>
+
+                    <p>
+
+                        Growing Together,
+                        Creating a Greener Future.
+
+                    </p>
+
+                </div>
+
+
+                <div class="footer-info">
+
+                    <h3>
+                        Green Corner
+                    </h3>
+
+                    <p>
+                        SMK Negeri 2 Purwokerto
+                    </p>
+
+                    <p>
+                        Tahun Ajaran 2026–2027
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="footer-bottom">
+
+                <p>
+                    © 2026 Green Corner. All Rights Reserved.
+                </p>
+
+                <p>
+                    Kelompok 2
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
+
+    <script src="js/script.js"></script>
 
 </body>
+
 </html>
