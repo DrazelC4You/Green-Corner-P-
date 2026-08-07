@@ -5,744 +5,1003 @@
 
     <meta charset="UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
     <title>Tanaman | Green Corner</title>
 
-    <link rel="icon" href="assets/logo/logo.png">
 
-    <!-- Google Font -->
+    <!-- Google Fonts -->
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+
 
     <!-- Font Awesome -->
 
     <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
 
     <!-- CSS -->
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+          href="style.css">
 
 </head>
 
 
-<!-- =====================================
-     MUSIC PLAYER
-===================================== -->
-
-<div class="music-player">
-
-
-<i class="fa-solid fa-music"></i>
-
-
-<button id="musicBtn">
-
-<i class="fa-solid fa-play"></i>
-
-</button>
-
-
-<audio id="bgMusic" loop>
-
-<source src="assets/music/nature.mp3">
-
-</audio>
-
-
-</div>
-
-
-
 <body>
 
-<!-- ===================================== -->
-<!-- HEADER -->
-<!-- ===================================== -->
 
-<header class="top-header">
+    <!-- =====================================================
+         NAVBAR
+    ====================================================== -->
 
-    <div class="container">
+    <header class="navbar">
 
-        <div class="header-content">
+        <div class="container">
 
-            <img src="assets/logo/logo.png"
-                alt="Logo"
-                class="logo">
 
-            <div>
+            <a href="home.html"
+               class="nav-logo">
 
-                <h2>GREEN CORNER</h2>
+                <span class="nav-logo-icon">
+                    🌿
+                </span>
 
-                <p>SMK Negeri 2 Purwokerto</p>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</header>
-
-<!-- ===================================== -->
-<!-- NAVBAR -->
-<!-- ===================================== -->
-
-<nav class="navbar">
-
-    <div class="container">
-
-        <ul>
-
-            <li><a href="home.html">Home</a></li>
-
-            <li><a href="tentang.html">Tentang</a></li>
-
-            <li><a href="tanaman.html" class="active">Tanaman</a></li>
-
-            <li><a href="alat.html">Alat & Bahan</a></li>
-
-            <li><a href="tahapan.html">Tahapan</a></li>
-
-            <li><a href="dokumentasi.html">Dokumentasi</a></li>
-
-            <li><a href="hasil.html">Hasil</a></li>
-
-            <li><a href="faq.html">FAQ</a></li>
-
-            <li><a href="penutup.html">Penutup</a></li>
-
-        </ul>
-
-    </div>
-
-</nav>
-
-<!-- ===================================== -->
-<!-- PAGE BANNER -->
-<!-- ===================================== -->
-
-<section class="page-banner">
-
-    <div class="container">
-
-        <h1>Tanaman Green Corner</h1>
-
-        <p>
-
-            Mengenal dua jenis bunga yang ditanam
-            dalam proyek Green Corner.
-
-        </p>
-
-    </div>
-
-</section>
-
-<!-- ===================================== -->
-<!-- BOUGAINVILLEA -->
-<!-- ===================================== -->
-
-<section class="plant-section">
-
-    <div class="container">
-
-        <div class="plant-grid">
-
-            <div class="plant-image">
-
-                <img src="assets/images/bougainvillea.jpg"
-                    alt="Bougainvillea">
-
-            </div>
-
-            <div class="plant-content">
-
-                <h2>Bougainvillea</h2>
-
-                <p>
-
-                    Bougainvillea merupakan tanaman hias yang terkenal
-                    karena warna bract (daun pelindung) yang cerah.
-                    Tanaman ini tahan terhadap cuaca panas,
-                    mudah dirawat, dan sering digunakan sebagai
-                    penghias taman maupun halaman.
-
-                </p>
-
-                <ul>
-
-                    <li>🌸 Warna bunga beragam.</li>
-
-                    <li>☀ Menyukai sinar matahari penuh.</li>
-
-                    <li>💧 Tidak membutuhkan penyiraman berlebihan.</li>
-
-                    <li>🌿 Cocok ditanam di daerah tropis.</li>
-
-                </ul>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ===================================== -->
-<!-- ZINNIA -->
-<!-- ===================================== -->
-
-<section class="plant-section">
-
-    <div class="container">
-
-        <div class="plant-grid reverse">
-
-            <div class="plant-content">
-
-                <h2>Zinnia</h2>
-
-                <p>
-
-                    Zinnia adalah tanaman berbunga yang memiliki
-                    banyak pilihan warna cerah. Selain memperindah
-                    taman, bunga ini juga mampu menarik kupu-kupu
-                    dan serangga penyerbuk.
-
-                </p>
-
-                <ul>
-
-                    <li>🌼 Berbunga lebat.</li>
-
-                    <li>🦋 Menarik kupu-kupu.</li>
-
-                    <li>🌞 Tumbuh baik di tempat terbuka.</li>
-
-                    <li>💧 Perawatan cukup mudah.</li>
-
-                </ul>
-
-            </div>
-
-            <div class="plant-image">
-
-                <img src="assets/images/zinnia.jpg"
-                    alt="Zinnia">
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ===================================== -->
-<!-- PERBANDINGAN TANAMAN -->
-<!-- ===================================== -->
-
-<section class="comparison">
-
-    <div class="container">
-
-        <div class="section-title">
-
-            <h2>Perbandingan Tanaman</h2>
-
-            <p>
-                Perbedaan karakteristik Bougainvillea dan Zinnia.
-            </p>
-
-        </div>
-
-        <div class="table-responsive">
-
-            <table>
-
-                <thead>
-
-                    <tr>
-
-                        <th>Aspek</th>
-
-                        <th>Bougainvillea</th>
-
-                        <th>Zinnia</th>
-
-                    </tr>
-
-                </thead>
-
-                <tbody>
-
-                    <tr>
-
-                        <td>Jenis</td>
-
-                        <td>Tanaman hias semak</td>
-
-                        <td>Tanaman bunga musiman</td>
-
-                    </tr>
-
-                    <tr>
-
-                        <td>Warna</td>
-
-                        <td>Merah, ungu, putih, oranye, pink</td>
-
-                        <td>Merah, kuning, putih, ungu, oranye</td>
-
-                    </tr>
-
-                    <tr>
-
-                        <td>Sinar Matahari</td>
-
-                        <td>Penuh</td>
-
-                        <td>Penuh</td>
-
-                    </tr>
-
-                    <tr>
-
-                        <td>Penyiraman</td>
-
-                        <td>Sedang</td>
-
-                        <td>Rutin</td>
-
-                    </tr>
-
-                    <tr>
-
-                        <td>Perawatan</td>
-
-                        <td>Mudah</td>
-
-                        <td>Mudah</td>
-
-                    </tr>
-
-                </tbody>
-
-            </table>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ===================================== -->
-<!-- SYARAT TUMBUH -->
-<!-- ===================================== -->
-
-<section class="requirements">
-
-    <div class="container">
-
-        <div class="section-title">
-
-            <h2>Syarat Tumbuh</h2>
-
-        </div>
-
-        <div class="requirement-grid">
-
-            <div class="requirement-card">
-
-                <i class="fa-solid fa-sun"></i>
-
-                <h3>Sinar Matahari</h3>
-
-                <p>
-
-                    Kedua tanaman membutuhkan sinar matahari
-                    minimal 6 jam setiap hari.
-
-                </p>
-
-            </div>
-
-            <div class="requirement-card">
-
-                <i class="fa-solid fa-droplet"></i>
-
-                <h3>Air</h3>
-
-                <p>
-
-                    Penyiraman dilakukan secara rutin,
-                    namun tidak berlebihan.
-
-                </p>
-
-            </div>
-
-            <div class="requirement-card">
-
-                <i class="fa-solid fa-mountain"></i>
-
-                <h3>Media Tanam</h3>
-
-                <p>
-
-                    Tanah harus gembur, subur,
-                    dan memiliki drainase yang baik.
-
-                </p>
-
-            </div>
-
-            <div class="requirement-card">
-
-                <i class="fa-solid fa-temperature-half"></i>
-
-                <h3>Suhu</h3>
-
-                <p>
-
-                    Tumbuh optimal pada iklim tropis
-                    dengan suhu hangat.
-
-                </p>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ===================================== -->
-<!-- CARA PERAWATAN -->
-<!-- ===================================== -->
-
-<section class="care">
-
-    <div class="container">
-
-        <div class="section-title">
-
-            <h2>Cara Perawatan</h2>
-
-        </div>
-
-        <div class="care-grid">
-
-            <div class="care-card">
-
-                <span>01</span>
-
-                <h3>Penyiraman</h3>
-
-                <p>
-
-                    Siram tanaman setiap pagi
-                    atau sore hari.
-
-                </p>
-
-            </div>
-
-            <div class="care-card">
-
-                <span>02</span>
-
-                <h3>Pemupukan</h3>
-
-                <p>
-
-                    Berikan pupuk secara berkala
-                    agar tanaman tumbuh subur.
-
-                </p>
-
-            </div>
-
-            <div class="care-card">
-
-                <span>03</span>
-
-                <h3>Penyiangan</h3>
-
-                <p>
-
-                    Bersihkan gulma di sekitar tanaman.
-
-                </p>
-
-            </div>
-
-            <div class="care-card">
-
-                <span>04</span>
-
-                <h3>Pengamatan</h3>
-
-                <p>
-
-                    Periksa kondisi tanaman
-                    secara rutin.
-
-                </p>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ===================================== -->
-<!-- TIPS MERAWAT -->
-<!-- ===================================== -->
-
-<section class="plant-tips">
-
-    <div class="container">
-
-        <div class="tips-box">
-
-            <i class="fa-solid fa-lightbulb"></i>
-
-            <div>
-
-                <h3>Tips Merawat Tanaman</h3>
-
-                <p>
-
-                    Pangkas bagian tanaman yang sudah kering
-                    agar pertumbuhan bunga baru menjadi lebih optimal.
-
-                </p>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ===================================== -->
-<!-- GALERI TANAMAN -->
-<!-- ===================================== -->
-
-<section class="gallery">
-
-    <div class="container">
-
-        <div class="section-title">
-
-            <h2>Galeri Tanaman</h2>
-
-            <p>
-                Dokumentasi tanaman yang menghiasi Green Corner.
-            </p>
-
-        </div>
-
-        <div class="gallery-grid">
-
-            <div class="gallery-card">
-
-                <img src="assets/images/bougainvillea1.jpg"
-                     alt="Bougainvillea">
-
-                <p>Bougainvillea</p>
-
-            </div>
-
-            <div class="gallery-card">
-
-                <img src="assets/images/bougainvillea2.jpg"
-                     alt="Bougainvillea">
-
-                <p>Bougainvillea Mekar</p>
-
-            </div>
-
-            <div class="gallery-card">
-
-                <img src="assets/images/zinnia1.jpg"
-                     alt="Zinnia">
-
-                <p>Zinnia</p>
-
-            </div>
-
-            <div class="gallery-card">
-
-                <img src="assets/images/zinnia2.jpg"
-                     alt="Zinnia">
-
-                <p>Zinnia Berwarna-warni</p>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ===================================== -->
-<!-- FAKTA MENARIK -->
-<!-- ===================================== -->
-
-<section class="facts">
-
-    <div class="container">
-
-        <div class="section-title">
-
-            <h2>Fakta Menarik</h2>
-
-        </div>
-
-        <div class="fact-grid">
-
-            <div class="fact-card">
-
-                <i class="fa-solid fa-star"></i>
-
-                <h3>Bougainvillea</h3>
-
-                <p>
-
-                    Warna cerah Bougainvillea berasal dari daun
-                    pelindung (bract), bukan dari bunga utamanya.
-
-                </p>
-
-            </div>
-
-            <div class="fact-card">
-
-                <i class="fa-solid fa-star"></i>
-
-                <h3>Zinnia</h3>
-
-                <p>
-
-                    Zinnia sering ditanam untuk menarik kupu-kupu
-                    dan lebah sehingga membantu proses penyerbukan.
-
-                </p>
-
-            </div>
-
-            <div class="fact-card">
-
-                <i class="fa-solid fa-star"></i>
-
-                <h3>Green Corner</h3>
-
-                <p>
-
-                    Kedua tanaman dipilih karena mudah dirawat
-                    dan mampu memperindah lingkungan sekolah.
-
-                </p>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ===================================== -->
-<!-- PAGE NAVIGATION -->
-<!-- ===================================== -->
-
-<section class="page-navigation">
-
-    <div class="container">
-
-        <div class="navigation-button">
-
-            <a href="tentang.html" class="back-btn">
-
-                <i class="fa-solid fa-arrow-left"></i>
-
-                Tentang
+                <span>
+                    GREEN CORNER
+                </span>
 
             </a>
 
-            <a href="alat.html" class="next-btn">
 
-                Alat & Bahan
+            <button class="menu-toggle"
+                    aria-label="Buka menu"
+                    aria-expanded="false">
 
-                <i class="fa-solid fa-arrow-right"></i>
+                <i class="fa-solid fa-bars"></i>
 
-            </a>
+            </button>
+
+
+            <nav>
+
+                <ul>
+
+                    <li>
+                        <a href="home.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="tentang.html">
+                            Tentang
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="tanaman.html"
+                           class="active">
+                            Tanaman
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="alat.html">
+                            Alat & Bahan
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="tahapan.html">
+                            Tahapan
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="dokumentasi.html">
+                            Dokumentasi
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="hasil.html">
+                            Hasil
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="faq.html">
+                            FAQ
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="penutup.html">
+                            Penutup
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
 
         </div>
 
-    </div>
-
-</section>
+    </header>
 
 
-<!-- ===================================== -->
-<!-- FOOTER -->
-<!-- ===================================== -->
 
-<footer>
+    <!-- =====================================================
+         PAGE HEADER
+    ====================================================== -->
 
-    <div class="container">
+    <main>
 
-        <img src="assets/logo/logo.png"
-             class="footer-logo"
-             alt="Logo SMKN 2 Purwokerto">
+        <section class="page-header">
 
-        <h3>Green Corner</h3>
+            <div class="container">
 
-        <p>
+                <div class="page-header-content">
 
-            Website Proyek Kolaborasi
-            Penanaman Bougainvillea & Zinnia
+                    <span>
+                        OUR PLANTS
+                    </span>
 
-        </p>
+                    <h1>
+                        Tanaman Green Corner
+                    </h1>
 
-        <p>
+                    <p>
 
-            SMK Negeri 2 Purwokerto
+                        Mengenal tanaman yang menjadi bagian
+                        dari proyek Green Corner.
 
-        </p>
+                    </p>
 
-        <p>
+                </div>
 
-            © 2026 Green Corner.
-            All Rights Reserved.
+            </div>
 
-        </p>
+        </section>
 
-    </div>
 
-</footer>
 
-<script src="js/script.js"></script>
+        <!-- =====================================================
+             INTRODUCTION
+        ====================================================== -->
+
+        <section class="plants-intro">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <span>
+                        PLANT COLLECTION
+                    </span>
+
+                    <h2>
+                        Dua Tanaman, Satu Tujuan
+                    </h2>
+
+                    <p>
+
+                        Bougainvillea dan Zinnia dipilih sebagai
+                        tanaman dalam proyek Green Corner.
+                        Keduanya memiliki karakteristik dan
+                        kebutuhan perawatan yang berbeda.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             BOUGAINVILLEA
+        ====================================================== -->
+
+        <section class="plant-detail">
+
+            <div class="container">
+
+                <div class="plant-detail-grid">
+
+
+                    <!-- IMAGE -->
+
+                    <div class="plant-detail-image">
+
+                        <div class="plant-image-placeholder">
+
+                            <i class="fa-solid fa-spa"></i>
+
+                            <span>
+                                BOUGAINVILLEA
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- CONTENT -->
+
+                    <div class="plant-detail-content">
+
+                        <span class="plant-number">
+                            TANAMAN 01
+                        </span>
+
+                        <h2>
+                            Bougainvillea
+                        </h2>
+
+                        <p class="plant-subtitle">
+                            Bunga kertas dengan warna yang menarik.
+                        </p>
+
+                        <p>
+
+                            Bougainvillea merupakan tanaman hias
+                            yang dikenal karena warna cerah pada
+                            bagian brakteanya. Tanaman ini sering
+                            digunakan untuk memperindah halaman
+                            dan lingkungan.
+
+                        </p>
+
+                        <p>
+
+                            Dalam proyek Green Corner, tanaman ini
+                            menjadi salah satu tanaman yang
+                            dirawat dan diamati perkembangannya.
+
+                        </p>
+
+
+                        <!-- QUICK INFO -->
+
+                        <div class="plant-facts">
+
+
+                            <div class="plant-fact">
+
+                                <i class="fa-solid fa-sun"></i>
+
+                                <div>
+
+                                    <strong>
+                                        Cahaya
+                                    </strong>
+
+                                    <span>
+                                        Membutuhkan cahaya matahari
+                                        yang cukup.
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="plant-fact">
+
+                                <i class="fa-solid fa-droplet"></i>
+
+                                <div>
+
+                                    <strong>
+                                        Air
+                                    </strong>
+
+                                    <span>
+                                        Penyiraman dilakukan
+                                        secukupnya.
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="plant-fact">
+
+                                <i class="fa-solid fa-seedling"></i>
+
+                                <div>
+
+                                    <strong>
+                                        Pertumbuhan
+                                    </strong>
+
+                                    <span>
+                                        Dapat tumbuh dengan baik
+                                        dengan perawatan yang tepat.
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             BOUGAINVILLEA CARE
+        ====================================================== -->
+
+        <section class="care-section">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <span>
+                        PLANT CARE
+                    </span>
+
+                    <h2>
+                        Cara Merawat Bougainvillea
+                    </h2>
+
+                    <p>
+
+                        Beberapa hal yang perlu diperhatikan
+                        dalam merawat Bougainvillea.
+
+                    </p>
+
+                </div>
+
+
+                <div class="care-grid">
+
+
+                    <article class="care-card">
+
+                        <div class="care-icon">
+
+                            <i class="fa-solid fa-sun"></i>
+
+                        </div>
+
+                        <h3>
+                            Sinar Matahari
+                        </h3>
+
+                        <p>
+
+                            Tempatkan tanaman di lokasi yang
+                            mendapatkan sinar matahari yang cukup.
+
+                        </p>
+
+                    </article>
+
+
+                    <article class="care-card">
+
+                        <div class="care-icon">
+
+                            <i class="fa-solid fa-droplet"></i>
+
+                        </div>
+
+                        <h3>
+                            Penyiraman
+                        </h3>
+
+                        <p>
+
+                            Siram tanaman secukupnya dan
+                            perhatikan kondisi media tanam.
+
+                        </p>
+
+                    </article>
+
+
+                    <article class="care-card">
+
+                        <div class="care-icon">
+
+                            <i class="fa-solid fa-scissors"></i>
+
+                        </div>
+
+                        <h3>
+                            Pemangkasan
+                        </h3>
+
+                        <p>
+
+                            Pangkas bagian tanaman yang kering
+                            atau tidak diperlukan.
+
+                        </p>
+
+                    </article>
+
+
+                    <article class="care-card">
+
+                        <div class="care-icon">
+
+                            <i class="fa-solid fa-leaf"></i>
+
+                        </div>
+
+                        <h3>
+                            Pemupukan
+                        </h3>
+
+                        <p>
+
+                            Berikan pupuk sesuai kebutuhan
+                            untuk membantu pertumbuhan tanaman.
+
+                        </p>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             ZINNIA
+        ====================================================== -->
+
+        <section class="plant-detail plant-detail-reverse">
+
+            <div class="container">
+
+                <div class="plant-detail-grid">
+
+
+                    <!-- CONTENT -->
+
+                    <div class="plant-detail-content">
+
+                        <span class="plant-number">
+                            TANAMAN 02
+                        </span>
+
+                        <h2>
+                            Zinnia
+                        </h2>
+
+                        <p class="plant-subtitle">
+                            Bunga berwarna cerah yang memperindah lingkungan.
+                        </p>
+
+                        <p>
+
+                            Zinnia merupakan tanaman berbunga
+                            yang memiliki berbagai macam warna.
+                            Bunganya dapat memberikan suasana
+                            yang lebih cerah dan menarik.
+
+                        </p>
+
+                        <p>
+
+                            Zinnia menjadi salah satu tanaman
+                            yang dipilih dalam Green Corner karena
+                            perawatannya dapat dipelajari melalui
+                            kegiatan penanaman dan pengamatan.
+
+                        </p>
+
+
+                        <!-- QUICK INFO -->
+
+                        <div class="plant-facts">
+
+
+                            <div class="plant-fact">
+
+                                <i class="fa-solid fa-sun"></i>
+
+                                <div>
+
+                                    <strong>
+                                        Cahaya
+                                    </strong>
+
+                                    <span>
+                                        Membutuhkan sinar matahari
+                                        yang cukup.
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="plant-fact">
+
+                                <i class="fa-solid fa-droplet"></i>
+
+                                <div>
+
+                                    <strong>
+                                        Air
+                                    </strong>
+
+                                    <span>
+                                        Membutuhkan penyiraman
+                                        secara teratur sesuai kondisi.
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="plant-fact">
+
+                                <i class="fa-solid fa-seedling"></i>
+
+                                <div>
+
+                                    <strong>
+                                        Pertumbuhan
+                                    </strong>
+
+                                    <span>
+                                        Dapat tumbuh dengan baik
+                                        jika dirawat secara rutin.
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- IMAGE -->
+
+                    <div class="plant-detail-image">
+
+                        <div class="plant-image-placeholder">
+
+                            <i class="fa-solid fa-sun"></i>
+
+                            <span>
+                                ZINNIA
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             ZINNIA CARE
+        ====================================================== -->
+
+        <section class="care-section">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <span>
+                        PLANT CARE
+                    </span>
+
+                    <h2>
+                        Cara Merawat Zinnia
+                    </h2>
+
+                    <p>
+
+                        Perawatan sederhana untuk membantu
+                        Zinnia tumbuh dengan baik.
+
+                    </p>
+
+                </div>
+
+
+                <div class="care-grid">
+
+
+                    <article class="care-card">
+
+                        <div class="care-icon">
+
+                            <i class="fa-solid fa-sun"></i>
+
+                        </div>
+
+                        <h3>
+                            Cahaya
+                        </h3>
+
+                        <p>
+
+                            Letakkan Zinnia di tempat yang
+                            mendapatkan cahaya matahari cukup.
+
+                        </p>
+
+                    </article>
+
+
+                    <article class="care-card">
+
+                        <div class="care-icon">
+
+                            <i class="fa-solid fa-droplet"></i>
+
+                        </div>
+
+                        <h3>
+                            Penyiraman
+                        </h3>
+
+                        <p>
+
+                            Siram secara teratur dengan tetap
+                            memperhatikan kelembapan media tanam.
+
+                        </p>
+
+                    </article>
+
+
+                    <article class="care-card">
+
+                        <div class="care-icon">
+
+                            <i class="fa-solid fa-leaf"></i>
+
+                        </div>
+
+                        <h3>
+                            Kebersihan
+                        </h3>
+
+                        <p>
+
+                            Bersihkan bagian tanaman yang kering
+                            dan jaga area sekitar tanaman.
+
+                        </p>
+
+                    </article>
+
+
+                    <article class="care-card">
+
+                        <div class="care-icon">
+
+                            <i class="fa-solid fa-seedling"></i>
+
+                        </div>
+
+                        <h3>
+                            Perawatan Rutin
+                        </h3>
+
+                        <p>
+
+                            Lakukan pengamatan secara rutin
+                            untuk mengetahui perkembangan tanaman.
+
+                        </p>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             COMPARISON
+        ====================================================== -->
+
+        <section class="plant-comparison">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <span>
+                        PLANT COMPARISON
+                    </span>
+
+                    <h2>
+                        Bougainvillea vs Zinnia
+                    </h2>
+
+                    <p>
+
+                        Perbandingan sederhana karakteristik
+                        kedua tanaman.
+
+                    </p>
+
+                </div>
+
+
+                <div class="comparison-table-wrapper">
+
+                    <table class="comparison-table">
+
+                        <thead>
+
+                            <tr>
+
+                                <th>
+                                    Karakteristik
+                                </th>
+
+                                <th>
+                                    Bougainvillea
+                                </th>
+
+                                <th>
+                                    Zinnia
+                                </th>
+
+                            </tr>
+
+                        </thead>
+
+
+                        <tbody>
+
+                            <tr>
+
+                                <td>
+                                    Jenis
+                                </td>
+
+                                <td>
+                                    Tanaman hias
+                                </td>
+
+                                <td>
+                                    Tanaman berbunga
+                                </td>
+
+                            </tr>
+
+
+                            <tr>
+
+                                <td>
+                                    Cahaya
+                                </td>
+
+                                <td>
+                                    Matahari cukup
+                                </td>
+
+                                <td>
+                                    Matahari cukup
+                                </td>
+
+                            </tr>
+
+
+                            <tr>
+
+                                <td>
+                                    Penyiraman
+                                </td>
+
+                                <td>
+                                    Secukupnya
+                                </td>
+
+                                <td>
+                                    Teratur
+                                </td>
+
+                            </tr>
+
+
+                            <tr>
+
+                                <td>
+                                    Fungsi
+                                </td>
+
+                                <td>
+                                    Memperindah lingkungan
+                                </td>
+
+                                <td>
+                                    Memperindah lingkungan
+                                </td>
+
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             NAVIGATION
+        ====================================================== -->
+
+        <section class="page-navigation">
+
+            <div class="container">
+
+
+                <a href="tentang.html"
+                   class="page-nav-button">
+
+                    <i class="fa-solid fa-arrow-left"></i>
+
+                    <span>
+                        Kembali ke Tentang
+                    </span>
+
+                </a>
+
+
+                <a href="alat.html"
+                   class="page-nav-button next">
+
+                    <span>
+                        Lanjut ke Alat & Bahan
+                    </span>
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+
+            <div class="footer-main">
+
+
+                <div class="footer-brand">
+
+                    <a href="home.html"
+                       class="nav-logo">
+
+                        <span class="nav-logo-icon">
+                            🌿
+                        </span>
+
+                        <span>
+                            GREEN CORNER
+                        </span>
+
+                    </a>
+
+                    <p>
+                        Growing Together,
+                        Creating a Greener Future.
+                    </p>
+
+                </div>
+
+
+                <div class="footer-info">
+
+                    <h3>
+                        Green Corner
+                    </h3>
+
+                    <p>
+                        SMK Negeri 2 Purwokerto
+                    </p>
+
+                    <p>
+                        Tahun Ajaran 2026–2027
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="footer-bottom">
+
+                <p>
+                    © 2026 Green Corner. All Rights Reserved.
+                </p>
+
+                <p>
+                    Kelompok 2
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
+
+    <script src="js/script.js"></script>
 
 </body>
+
 </html>
