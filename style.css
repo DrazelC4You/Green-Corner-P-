@@ -4905,3 +4905,286 @@ section {
     }
 
 }
+
+
+/* =====================================================
+   GREEN CORNER
+   CSS PART 7 — FINISHING & POLISH
+===================================================== */
+
+
+/* =====================================================
+   1. SMOOTH SCROLL
+===================================================== */
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* =====================================================
+   2. TEXT SELECTION
+===================================================== */
+
+::selection {
+    background: var(--primary);
+    color: white;
+}
+
+
+/* =====================================================
+   3. GLOBAL IMAGE
+===================================================== */
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+/* =====================================================
+   4. BUTTON HOVER
+===================================================== */
+
+button,
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+button {
+    font-family: inherit;
+}
+
+
+/* =====================================================
+   5. IMAGE HOVER
+===================================================== */
+
+.plant-image img,
+.documentation-image img,
+.result-image img,
+.step-image img {
+    transition:
+        transform 0.5s ease,
+        filter 0.5s ease;
+}
+
+
+/* =====================================================
+   6. CARD HOVER
+===================================================== */
+
+.tool-card,
+.material-card,
+.documentation-card,
+.result-card,
+.step-content,
+.faq-item {
+    will-change: transform;
+}
+
+
+/* =====================================================
+   7. FADE-IN ANIMATION
+===================================================== */
+
+.fade-in {
+    animation:
+        fadeIn 0.7s ease both;
+}
+
+
+@keyframes fadeIn {
+
+    from {
+        opacity: 0;
+        transform: translateY(18px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+
+/* =====================================================
+   8. FADE-UP
+===================================================== */
+
+.fade-up {
+    animation:
+        fadeUp 0.8s ease both;
+}
+
+
+@keyframes fadeUp {
+
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+
+/* =====================================================
+   9. FLOATING EFFECT
+===================================================== */
+
+.float-animation {
+    animation:
+        floating 4s ease-in-out infinite;
+}
+
+
+@keyframes floating {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+
+}
+
+
+/* =====================================================
+   10. BUTTON PRESS EFFECT
+===================================================== */
+
+.btn:active,
+button:active,
+.page-nav-button:active {
+    transform: scale(0.97);
+}
+
+
+/* =====================================================
+   11. FOCUS
+===================================================== */
+
+button:focus-visible,
+a:focus-visible {
+    outline: 3px solid rgba(46, 125, 50, 0.3);
+
+    outline-offset: 3px;
+}
+
+
+/* =====================================================
+   12. SCROLLBAR — DESKTOP
+===================================================== */
+
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: #f1f5f2;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #9bc49d;
+
+    border-radius: 20px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary);
+}
+
+
+/* =====================================================
+   13. MOBILE — REMOVE HOVER-DEPENDENT EFFECTS
+===================================================== */
+
+@media (hover: none) {
+
+    .documentation-card:hover,
+    .tool-card:hover,
+    .material-card:hover,
+    .result-card:hover {
+        transform: none;
+
+        box-shadow:
+            0 5px 20px rgba(0, 0, 0, 0.04);
+    }
+
+
+    .documentation-card:hover
+    .documentation-image img {
+        transform: none;
+    }
+
+}
+
+
+/* =====================================================
+   14. SMALL MOBILE
+===================================================== */
+
+@media (max-width: 400px) {
+
+    .container {
+        width: min(100% - 28px, 1120px);
+    }
+
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+
+    h3 {
+        font-size: 1rem;
+    }
+
+
+    p {
+        font-size: 0.85rem;
+    }
+
+}
+
+
+/* =====================================================
+   15. REDUCED MOTION
+===================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+    html {
+        scroll-behavior: auto;
+    }
+
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+
+        animation-iteration-count: 1 !important;
+
+        transition-duration: 0.01ms !important;
+    }
+
+}
